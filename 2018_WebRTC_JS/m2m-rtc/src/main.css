@@ -1,0 +1,25 @@
+body {
+    margin  : 0;
+    padding : 0;
+}
+
+.section-container {
+    top      : 0;
+    left     : 0;
+    right    : 0;
+    width    : 100%;
+    height   : 100vh;
+    position : fixed;
+}
+
+.section-left {
+    float  : left;
+    width  : 75%;
+    height : 100%;
+}
+
+.section-right {
+    float  : left;
+    width  : 25%;
+    height : 100%;
+}

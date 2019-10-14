@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fc.mapper.TopicMapper">
+
+    <select id="listTopic" resultType="com.fc.model.Topic">
+        select tid,name,content,image from topic
+    </select>
+
+    <select id="listImage" resultType="string">
+        select image_url from image
+    </select>
+
+    <select id="getTopicNameById" resultType="com.fc.model.Topic">
+        select tid,name,content,image from topic  where tid=#{tid}
+    </select>
+
+    <insert id="insertTopic">
+        insert into topic(tid,name,content,image) values(#{tid},#{name},#{content},#{image})
+    </insert>
+
+    <update id="updateTopic">
+        update topic set name=#{name},content=#{content},image=#{image}
+        where tid=#{tid}
+    </update>
+
+    <delete id="deleteTopic">
+        DELETE FROM topic where tid=#{tid}
+    </delete>
+
+    <select id="othersT1" resultType="string">
+        select t1 from others where id=#{id}
+    </select>
+
+    <update id="updateT1">
+        update others set t1=#{t1}
+        where id=#{id}
+    </update>
+
+    <select id="othersT2" resultType="string">
+        select t2 from others where id=#{id}
+    </select>
+
+</mapper>
