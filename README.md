@@ -31,7 +31,7 @@ JAVA+JavaScript+Bootstrap+SpringMVC+Mybatis+MySQL
 チームプロジェクトですが、私はメインライターです。
 
 ## 2017_Live2D_Unity
-Live2D model for Steam Workshop of Wallpaper Engine
+Live2D model for Steam Workshop of Wallpaper Engine
 
 ## 2017_spider_python
 APIからゲームデータを取得するスパイダー
