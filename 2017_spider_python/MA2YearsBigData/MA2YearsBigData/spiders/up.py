@@ -4,7 +4,7 @@ import os
 
 count = 0
 
-conn = MySQLdb.connect(host="ma2year.ciayd3oyvfhe.ap-northeast-2.rds.amazonaws.com", user="arthur", passwd="millionarthur", db="ma2year",charset="utf8")
+conn = MySQLdb.connect(host="ma2year.XXXXXX.rds.amazonaws.com", user="arthur", passwd="millionarthur", db="ma2year",charset="utf8")
 cursor = conn.cursor()
 if conn:
     print("Database  Connected")
