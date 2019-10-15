@@ -28,8 +28,6 @@ JavaScriptを使用して開発された投票システム
 
 JAVA+JavaScript+Bootstrap+SpringMVC+Mybatis+MySQL
 
-チームプロジェクトですが、私はメインライターです。
-
 ## 2017_Live2D_Unity
 Live2D model for Steam Workshop of Wallpaper Engine
 
